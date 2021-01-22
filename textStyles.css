@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
+
+.header-text {
+  transform: skew(-12deg) rotate(-12deg);
+  grid-area: text;
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 6vw;
+  margin: 0;
+  padding: 25px;
+  color: #1d9099;
+  text-shadow: 1vmin 1vmin 0 #E79C10, -1vmin -1vmin 0 #D53A33;
+}
+
+.rotate {
+    transform: rotate(180deg)
+}
+
+.font-style {
+    font-size: large;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title-text {
+    margin: auto auto;
+    align-self: center;
+    width: max-content;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #F76B1C;
+    text-shadow: 1px 1px 1px #D53A33,
+        1px 2px 1px #D53A33,
+        1px 3px 1px #D53A33,
+        1px 4px 1px #D53A33,
+        1px 5px 1px #D53A33,
+        1px 6px 1px #D53A33,
+        1px 7px 1px #D53A33,
+        1px 8px 1px #D53A33,
+        1px 9px 1px #D53A33,
+        1px 10px 1px #D53A33,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+} 
+
+#title-text:hover {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #1d9099;
+    cursor: default;
+    text-shadow: 1px 1px 1px #E79C10,
+        1px 2px 1px #E79C10,
+        1px 3px 1px #E79C10,
+        1px 4px 1px #E79C10,
+        1px 5px 1px #E79C10,
+        1px 6px 1px #E79C10,
+        1px 7px 1px #E79C10,
+        1px 8px 1px #E79C10,
+        1px 9px 1px #E79C10,
+        1px 10px 1px #E79C10,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+} 
+
